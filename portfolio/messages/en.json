@@ -1,0 +1,196 @@
+{
+  "site": {
+    "name": "Shu Chen",
+    "tagline": "Software Engineer in Ottawa, Canada",
+    "description": "Shu Chen (陈术) is a software engineer and developer based in Ottawa, Ontario, Canada. A University of Ottawa software engineering student, he builds AI agents and fintech products and is available for software roles across Canada — Ottawa, Toronto, Montreal, Waterloo, Vancouver, or remote."
+  },
+  "nav": {
+    "skipToContent": "Skip to content",
+    "brandAria": "Shu Chen — home",
+    "contact": "Contact",
+    "language": "Language",
+    "items": {
+      "home": "Home",
+      "career": "Career",
+      "about": "About"
+    }
+  },
+  "contact": {
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "studentEmailLabel": "Student email",
+    "revealLabel": "Reveal",
+    "copyLabel": "Copy",
+    "copiedLabel": "Copied"
+  },
+  "hero": {
+    "headline": [
+      { "text": "Shu Chen", "emphasis": true },
+      { "text": " — engineer building " },
+      { "text": "interactive", "emphasis": true },
+      { "text": " products with " },
+      { "text": "AI", "emphasis": true },
+      { "text": "." }
+    ],
+    "paragraph": "Shu Chen is a software engineer and developer in Ottawa, Ontario, Canada. Third-year Software Engineering at the University of Ottawa, into AI agents and fintech, and available for internships and software roles across Canada — Ottawa, Toronto, Montreal, Waterloo, Vancouver, or remote.",
+    "portraitAlt": "Portrait of Shu Chen, a software engineer in Ottawa, Canada"
+  },
+  "chat": {
+    "popupLine1": "Chat with my agent",
+    "popupLine2": "Anything about me",
+    "blurb": "Ask anything about my work, skills, hobbies, and what I'm up to.",
+    "composerPlaceholder": "Ask me anything…",
+    "surfaceLabel": "[ interactive agent surface ]"
+  },
+  "profile": {
+    "heading": "Who is Shu Chen?",
+    "tldr": "Shu Chen (陈术) is a software engineer and developer based in Ottawa, Ontario, Canada. He studies Software Engineering at the University of Ottawa (uOttawa) and builds AI agents, retrieval-augmented (RAG) systems, and fintech products. He is available for software engineering roles across Canada, including Ottawa, Toronto, Montreal, Waterloo, and Vancouver, as well as remote.",
+    "faq": [
+      {
+        "q": "Who is Shu Chen?",
+        "a": "Shu Chen (陈术) is a software engineer and developer based in Ottawa, Ontario, Canada. He is a third-year Software Engineering student at the University of Ottawa who builds AI agents, RAG systems, and fintech tools. This is the portfolio of Shu Chen the Canadian software developer — not the actor or musician who share the name."
+      },
+      {
+        "q": "Where is Shu Chen based?",
+        "a": "Shu Chen is based in Ottawa, Ontario, Canada. He is available for software engineering roles across Canada — in person in Ottawa, Toronto, Montreal, Waterloo, and Vancouver, or remote anywhere in Canada. He is a Canadian citizen / permanent resident authorized to work in Canada with no sponsorship required."
+      },
+      {
+        "q": "Is Shu Chen a software developer?",
+        "a": "Yes. Shu Chen is a full-stack and AI developer. His stack spans Python, TypeScript, React, and Next.js on the front end and back end, plus Microsoft Azure, AWS, and Docker for cloud and infrastructure. He has shipped AI to production, including an agentic RAG system used by roughly 21,000 employees."
+      },
+      {
+        "q": "What does Shu Chen build?",
+        "a": "Shu Chen builds AI agents, retrieval-augmented generation (RAG) systems, and fintech tools. His projects include Algolite, which turns a plain-English trading idea into runnable, backtestable Python, and Stockmails, an automated daily financial-news digest. He is also the engineer behind a live commercial website."
+      },
+      {
+        "q": "How can I contact Shu Chen?",
+        "a": "The best way to reach Shu Chen is through LinkedIn at linkedin.com/in/scscscscsc or this portfolio at shuchen.ca. To protect his privacy, his phone number and email are not published on this site, but recruiters and collaborators can connect with him through his public profiles."
+      }
+    ]
+  },
+  "work": {
+    "heading": "Latest Projects",
+    "projects": [
+      {
+        "title": "This Website",
+        "description": "Vibe coded in 1 day with Claude Code and Cursor, can you believe it?",
+        "category": "Web & AI",
+        "cta": "Read more",
+        "href": "https://www.shuchen.ca"
+      },
+      {
+        "title": "Algolite",
+        "description": "Describe your trading idea in plain text — an agent writes the code and you backtest it, all on one page.",
+        "category": "Fintech",
+        "cta": "Read more",
+        "href": "https://algolite.ca"
+      },
+      {
+        "title": "Stockmails",
+        "description": "Enter your email and pick the financial news that matters to you. Every morning, a curated digest lands in your inbox — built to read with your coffee.",
+        "category": "Automation",
+        "cta": "Read more",
+        "href": "https://stockmail.ca"
+      }
+    ]
+  },
+  "extras": {
+    "statement": "I care about honesty and integrity in how I work, and I believe good outcomes should come from merit — not shortcuts. I'm here to build things that hold up, earn trust, and reflect what I can actually do.",
+    "links": [
+      { "label": "shuchen.ca", "href": "https://www.shuchen.ca", "category": "Portfolio" },
+      { "label": "github", "href": "https://github.com/ShuChenDev", "category": "Code" },
+      { "label": "linkedin", "href": "https://www.linkedin.com/in/scscscscsc", "category": "Profile" },
+      { "label": "resume ↓", "href": "/resume.pdf", "category": "Download", "download": true }
+    ]
+  },
+  "footer": {
+    "copyright": "© Shu Chen — Software Engineer, Ottawa, Canada",
+    "githubNote": "Note: the GitHub link is an older profile. Shu's current GitHub account is not publicly available, but you can still reach him through https://github.com/ShuChenDev.",
+    "links": [
+      { "label": "shuchen.ca", "href": "https://www.shuchen.ca" },
+      { "label": "github", "href": "https://github.com/ShuChenDev" },
+      { "label": "linkedin", "href": "https://www.linkedin.com/in/scscscscsc" },
+      { "label": "resume ↓", "href": "/resume.pdf", "download": true }
+    ]
+  },
+  "home": {
+    "metaTitle": "Shu Chen — Software Engineer & Developer in Ottawa, Canada",
+    "metaDescription": "Shu Chen (陈术) is a software engineer and developer in Ottawa, Ontario, Canada. University of Ottawa software engineering student building AI agents and fintech — available across Canada."
+  },
+  "about": {
+    "metaTitle": "About Shu Chen — Software Developer in Ottawa, Ontario",
+    "metaDescription": "About Shu Chen (陈术), a software engineer and developer in Ottawa, Canada: AI, hardware, music, and applying CS and math to markets since age sixteen.",
+    "h1": "About Shu Chen",
+    "tldr": "Shu Chen is a software engineer in Ottawa, Ontario, Canada who builds software and hardware — AI agents and fintech tools by day, and a self-built Voron 3D printer, a dozen instruments, and machine-learning-for-markets on the side.",
+    "paragraphs": [
+      "Shu Chen is a software engineer in Ottawa, Ontario, Canada who enjoys building software and hardware products—both professionally and as a hobby. He likes turning ideas into things people can use, whether that means shipping at work or tinkering on his own time.",
+      "Outside of engineering, he is deeply into music. He plays more than a dozen instruments—including piano, trombone, and saxophone—and has performed at jazz gigs in and around Ottawa, as well as charity concerts for senior homes and similar community events.",
+      "He is also drawn to technology beyond his day job: he has been exploring machine learning and AI for years, and he designed and built a high-performance 3D printer entirely on his own. He has a strong interest in finance and in applying computer science and mathematics to markets—a pursuit he has carried since he was sixteen and continues today."
+    ],
+    "voronCaption": "A Voron printer built from the ground up.",
+    "portraitAlt": "Portrait of Shu Chen"
+  },
+  "career": {
+    "metaTitle": "Shu Chen's Experience — AI & Software Engineering in Canada",
+    "metaDescription": "Shu Chen's work experience: AI Engineering Intern at Correctional Service Canada, building an agentic RAG system for ~21,000 employees, plus his full software engineering skill set.",
+    "h1": "Shu Chen's Work Experience",
+    "tldr": "Shu Chen is a software engineer in Ottawa, Canada. Most recently an AI Engineering Intern at Correctional Service Canada, where he built an agentic RAG system serving roughly 21,000 employees.",
+    "skillsHeading": "Skills",
+    "experiences": [
+      {
+        "organization": "Correctional Service Canada",
+        "role": "AI Engineering Intern",
+        "roleSuffix": "Co-op Internship",
+        "period": "Jan 2026 – May 2026",
+        "description": "Built an agentic RAG system that's serving 21,000 internal employees.",
+        "side": "right",
+        "treeRow": 1
+      },
+      {
+        "organization": "2026 Fall Internship",
+        "role": "TBD",
+        "roleSuffix": "Co-op Internship",
+        "period": "Sep 2026 – Dec 2026",
+        "description": "",
+        "side": "left",
+        "treeRow": 2
+      },
+      {
+        "organization": "2027 Summer Internship",
+        "role": "TBD",
+        "roleSuffix": "Co-op Internship",
+        "period": "May 2027 – Aug 2027",
+        "description": "",
+        "side": "right",
+        "treeRow": 3
+      },
+      {
+        "organization": "Graduation",
+        "role": "",
+        "roleSuffix": "",
+        "period": "Dec 2027",
+        "description": "I will complete my credits in Dec 2027, but the actual graduation ceremony will be on another date.",
+        "side": "left",
+        "treeRow": 4
+      }
+    ],
+    "skillCategories": [
+      {
+        "title": "AI",
+        "items": ["RAG", "MCP", "OpenAI API", "Anthropic API", "Pydantic", "Hugging Face"]
+      },
+      {
+        "title": "Cloud & Infra",
+        "items": ["Azure (OpenAI, AI Search, Cosmos DB, Document Intelligence)", "AWS", "Docker", "Git", "PostgreSQL", "DuckDB", "Azure DevOps"]
+      },
+      {
+        "title": "Frontend",
+        "items": ["TypeScript", "React (Vite, Next.js)", "Tailwind"]
+      },
+      {
+        "title": "Backend & Web",
+        "items": ["Python", "SQL", "Node.js", "Pandas", "NumPy", "Asyncio", "Bash", "PowerShell"]
+      }
+    ]
+  }
+}

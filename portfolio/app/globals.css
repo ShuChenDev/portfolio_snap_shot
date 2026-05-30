@@ -1,0 +1,217 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-canvas: #f4efe6;
+  --color-ink: #111111;
+  --color-chrome: #000000;
+  --color-chrome-hover: #2e2e2e;
+  --color-chrome-ink: #f4efe6;
+  --color-btn-light-hover: rgba(17, 17, 17, 0.07);
+  --color-nav-link: color-mix(in srgb, var(--color-ink) 90%, black);
+  --color-nav-link-hover: color-mix(in srgb, var(--color-ink) 78%, black);
+  --color-clay: #2d1812;
+  --color-card: #e6dbcf;
+  --color-rule: rgba(17, 17, 17, 0.08);
+
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+}
+
+:root {
+  --hero-region-h: 600px;
+  --nav-offset: 64px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:where(section[id]) {
+  scroll-margin-top: var(--nav-offset);
+}
+
+@keyframes word-in {
+  to {
+    opacity: 1;
+  }
+}
+
+.word-in {
+  opacity: 0;
+  animation: word-in 0.15s ease-out forwards;
+}
+
+@keyframes chat-intro-in {
+  from {
+    opacity: 0;
+    transform: scale(0.97) translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.chat-intro-in {
+  animation: chat-intro-in 0.45s ease-out both;
+}
+
+@keyframes chat-prompt-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.chat-prompt-in {
+  animation: chat-prompt-in 0.4s ease-out both;
+}
+
+@keyframes career-pop-in {
+  from {
+    opacity: 0;
+    transform: scale(0.97) translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.career-pop-in {
+  opacity: 0;
+  animation: career-pop-in 0.45s ease-out both;
+}
+
+.hero-portrait-in {
+  opacity: 0;
+  animation: career-pop-in 0.45s ease-out both;
+}
+
+html[data-home-animate="false"] .word-in,
+html[data-home-animate="false"] .hero-portrait-in,
+html[data-home-animate="false"] .chat-intro-in,
+html[data-home-animate="false"] .chat-prompt-in {
+  opacity: 1;
+  animation: none;
+  transform: none;
+}
+
+/* Reset browser button defaults (color-scheme: light prevents dark-mode greying).
+   Background color is driven entirely by the inline style in ChatIntro.tsx so the
+   empty/filled toggle isn't overridden. */
+.chat-send-dot {
+  appearance: none;
+  -webkit-appearance: none;
+  color-scheme: light;
+  flex-shrink: 0;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+/* Chat history + composer scrollbars — subtle on black chrome */
+.chat-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(244, 239, 230, 0.22) transparent;
+}
+
+.chat-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.chat-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(244, 239, 230, 0.18);
+  border-radius: 9999px;
+}
+
+.chat-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(244, 239, 230, 0.32);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .word-in {
+    opacity: 1;
+    animation: none;
+  }
+
+  .chat-intro-in,
+  .chat-prompt-in,
+  .career-pop-in,
+  .hero-portrait-in {
+    opacity: 1;
+    animation: none;
+  }
+
+  .btn-dark:hover,
+  .btn-light:hover,
+  .nav-link:hover {
+    transition: none;
+  }
+}
+
+@layer components {
+  .btn {
+    transition:
+      color 0.2s ease,
+      background-color 0.2s ease,
+      border-color 0.2s ease;
+  }
+
+  .btn-dark:hover {
+    background-color: var(--color-chrome-hover);
+  }
+
+  .btn-light:hover {
+    background-color: var(--color-btn-light-hover);
+  }
+
+  .nav-link {
+    color: var(--color-nav-link);
+    transition: color 0.2s ease;
+  }
+
+  .nav-link:hover {
+    color: var(--color-nav-link-hover);
+  }
+
+  .site-nav {
+    transition:
+      background-color 0.2s ease,
+      border-color 0.2s ease;
+  }
+
+  .site-nav:has(.site-nav-links :is(a, button):hover),
+  .site-nav:has(.site-nav-links :focus-within) {
+    background-color: color-mix(in srgb, var(--color-canvas) 68%, var(--color-ink));
+    border-color: color-mix(in srgb, var(--color-rule) 55%, var(--color-ink) 18%);
+  }
+
+  .about-article,
+  .about-article p,
+  .about-article figcaption {
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .about-article {
+    font-size: 1.2rem;
+    line-height: 1.72;
+    color: color-mix(in srgb, var(--color-ink) 92%, transparent);
+  }
+
+  @media (min-width: 768px) {
+    .about-article {
+      font-size: 1.3125rem;
+    }
+  }
+}

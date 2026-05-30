@@ -1,0 +1,1 @@
+Before you do anything, always check avaliable skills, and if a skill describes what you are looking for, use the skill to help you with the work.
